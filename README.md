@@ -32,3 +32,7 @@ python generate_embeddings.py
 ## For more details
 (https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 
+Note:
+no of speaker = no. of class, no of utterence = no. images/pixel
+1. try to config the hypercolumn like, one pixels then its 9 elements, then another pixel then its 9 elements
+2. watch out for input shape and output shape of similarity matrix.
